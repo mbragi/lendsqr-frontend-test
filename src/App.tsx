@@ -1,15 +1,9 @@
-import { Routes, Route } from 'react-router-dom';
-import { general } from "./pages/index";
+import Login from "./pages/login/login";
+
 function App() {
   return (
-    <div className="App">
-   <Routes>
-        {
-          general?.map((item, index) => (
-            <Route key={index}  path={item.path} element={item.el} />
-          ))
-        }
-      </Routes>
+    <div style={{width:'100%',height:'100%',display:'flex',flexDirection:'column'}}>
+      <Login/>
     </div>
   );
 }
