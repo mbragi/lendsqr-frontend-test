@@ -21,7 +21,7 @@ $infinity-purple-902: #20082B;
 
 $infinity-gray-100 : #F9F8F9;
 $infinity-gray-200 : #F8F6F5;
-$infinity-gray-300 : #EAEAEA;
+$infinity-gray-300 : #Eff0f3;
 $infinity-gray-400 : #CCCCCC;
 $infinity-gray-500 : #8B8C8C;
 $infinity-gray-600 : #4F4F4F;
@@ -57,9 +57,9 @@ $infinity-blue-300 : #B8C4FF;
 $infinity-blue-400 : #A3AFFA;
 $infinity-blue-500 : #6F7FFF;
 $infinity-blue-600 : #4C5FF7;
-$infinity-blue-700 : #4751D1;
+$infinity-blue-700 : #39CDCC;
 $infinity-blue-800 : #4D58B2;
-$infinity-blue-900 : #2C3684;
+$infinity-blue-900 : #213f7d;
 
 $infinity-red-100: #FFF5F5;
 $infinity-red-200: #FDE7E8;
@@ -140,8 +140,7 @@ $infinity-red-92: #2E0507;
   line-height: $lh;
   color: $color;
   font-style: normal;
-  font-family: 'lato', sans-serif;
-    
+  font-family: 'Avenir Next';
 }
 
 @mixin fontMain($fs, $lh, $color) {
@@ -149,8 +148,7 @@ $infinity-red-92: #2E0507;
   line-height: $lh;
   color: $color;
   font-style: normal;
-  font-family: 'Khand', sans-serif;
-  
+  font-family: 'Avenir Next';
 }
 @mixin fontLight($fs, $lh, $color) {
   @include font($fs, $lh, $color);
