@@ -3,10 +3,13 @@ import React from 'react'
 import union from '../../assests/Union.png'
 import lend from '../../assests/lendsqr.png'
 import pablo from '../../assests/pablo-sign-in 1.png'
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate()
  const httpSignIn = async () => {
     console.log('redirect to login')
+    navigate('/dashboard')
  }
   return (
     <React.Fragment>
