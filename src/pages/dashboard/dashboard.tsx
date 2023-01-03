@@ -1,10 +1,10 @@
 import React from 'react'
-import DashbordFrame from '../../components/dashbordframe'
+import DashbordFrame from '../../components/dashboardframe/dashbordframe'
 
 function Dashboard() {
   return (
     <DashbordFrame>
-      
+      <p>Hello Typescript!</p>
     </DashbordFrame>
   )
 }

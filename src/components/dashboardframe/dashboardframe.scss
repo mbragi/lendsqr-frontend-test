@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.frame-container{
+ @include colflex(center,space-between);
+ width:100%;
+ height: 100%;
+ overflow: hidden;
+ background-color: $infinity-white-100;
+ .frame-inner-container{
+ @include rowflex(center, space-between);
+  background-color: $infinity-white-100;
+ width: 100%;
+ overflow: hidden;
+ .sidebar-component-container{
+  width: 25%;
+  background-color: aqua;
+ }
+ .content{
+  overflow: hidden;
+  background-color: $infinity-gray-100;
+  width: 100%;
+ }
+ }
+}
