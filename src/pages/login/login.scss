@@ -8,10 +8,10 @@
 
  .left{
   width: 50%;
-  padding: 2rem;
+  padding: 1rem;
   @include colflex(flex-start,space-between);
   .logo-container{
-   margin: 5rem 0 5rem 4rem ;
+   margin: 2rem 0 6rem 4rem ;
    width: 150px;
   @include rowflex(center, space-evenly);
   flex-wrap: nowrap;
@@ -19,16 +19,19 @@
  }
  .right{
   width: 50%;
-  margin-left: 5rem;
+  margin-left: 3rem;
   .login-form-container{
-   width:100%;
+    width:100%;
+    padding: 4rem;
+    margin-top: 2rem;
   @include colflex(flex-start, space-between);
   .login-form-title{
+
     h2{
       @include fontMain(2rem,2rem,$infinity-blue-900)
     }
     p{
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   .login-form-input{
